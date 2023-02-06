@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-06T11:47:36.096Z",
+        "before": [
+          {
+            "result": {
+              "duration": 76168055700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nhsbsa.steps.NHSBSATestSteps.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Get help with paying for nhs costs online service if all Negative answers",
+        "description": "",
+        "id": "uk-test-ticket-using-user-centric-bdd;get-help-with-paying-for-nhs-costs-online-service-if-all-negative-answers",
+        "after": [
+          {
+            "result": {
+              "duration": 33584639200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nhsbsa.steps.NHSBSATestSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 921485800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am a citizen of the UK",
+            "match": {
+              "location": "com.nhsbsa.steps.NHSBSATestSteps.validatePageTitle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36949397900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I put my circumstances into the Checker tool for negative answers",
+            "match": {
+              "location": "com.nhsbsa.steps.NHSBSATestSteps.enterDetailsForNoValue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136037600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should get a result of whether I will get help or not for negative answers",
+            "match": {
+              "location": "com.nhsbsa.steps.NHSBSATestSteps.validateUserEligibleForHelpForNoValue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-06T11:50:04.245Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11445182500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nhsbsa.steps.NHSBSATestSteps.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Get help with paying for nhs costs online service if all Positive answers",
+        "description": "",
+        "id": "uk-test-ticket-using-user-centric-bdd;get-help-with-paying-for-nhs-costs-online-service-if-all-positive-answers",
+        "after": [
+          {
+            "result": {
+              "duration": 1167157500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nhsbsa.steps.NHSBSATestSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35004000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am a citizen of the UK",
+            "match": {
+              "location": "com.nhsbsa.steps.NHSBSATestSteps.validatePageTitle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20504188300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I put my circumstances into the Checker tool for positive answers",
+            "match": {
+              "location": "com.nhsbsa.steps.NHSBSATestSteps.enterDetailsForYesValue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47002600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should get a result of whether I will get help or not for positive answers",
+            "match": {
+              "location": "com.nhsbsa.steps.NHSBSATestSteps.validateUserEligibleForHelpForYesValue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "UK Test Ticket using User Centric BDD",
+    "description": "",
+    "id": "uk-test-ticket-using-user-centric-bdd",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/NHSBSA.feature",
+    "tags": []
+  }
+]
